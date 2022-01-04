@@ -1,0 +1,23 @@
+<h1>Edit Restaurant</h1>
+<br>
+<!--Update Form-->
+<form [formGroup]="updateResto" (ngSubmit)="collection()">
+    <div class="form-group">
+      <label for="exampleInputEmail1">Name</label>
+      <input type="text" class="form-control" formControlName="name" placeholder="Enter your Name">
+    </div>
+    <br>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Email Address</label>
+      <input type="email" class="form-control" formControlName="email" placeholder="Enter your email address">
+    </div>
+    <br>
+    <div class="form-group">
+        <label for="exampleInputPassword1">Address</label>
+        <!-- <input type="address"  placeholder="Enter your address"> -->
+    <textarea class="form-control" formControlName="address" placeholder="Enter your address"></textarea>  
+    </div>
+    <br>
+    <button type="submit" class="btn btn-success">Update</button>
+</form>
+<!--Update Form-->

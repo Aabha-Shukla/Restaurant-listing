@@ -1,0 +1,17 @@
+<h2> User Login</h2>
+<br>
+<!-- login form -->
+<form [formGroup]="login" (ngSubmit)="userLogin()">
+    <div class="form-group">
+      <label for="exampleInputPassword1">Login ID</label>
+      <input type="text" class="form-control" formControlName="id" placeholder="Enter your id">
+    </div>
+    <br>
+    <!-- <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" formControlName="password" placeholder="Enter your Password">
+    </div> -->
+    <br>
+    <button type="submit" class="btn btn-success">Login</button>
+</form>
+<!-- login form -->

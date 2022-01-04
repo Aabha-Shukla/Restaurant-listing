@@ -1,0 +1,39 @@
+<div class="container-fluid">
+  <!--header-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand"  routerLink="" > Resto</a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a routerLink="/add" class="nav-link">Add Restaurants</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="/update/id" class="nav-link">Update Restaurants</a> 
+        </li>
+        <li class="nav-item">
+          <a routerLink="" class="nav-link">List Restaurants</a> 
+        </li>
+        <li class="nav-item">
+          <a routerLink="/register" class="nav-link">Register</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="/login" class="nav-link">Login</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="/profile" class="nav-link">Profile</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--header-->
+</div>
+<div class="container">
+  <router-outlet></router-outlet>
+  <!-- Footer -->
+<footer class="footerClass">
+  <div class="container-fluid">
+    <h4>Register your Restaurant with us</h4>
+  </div>
+</footer>
+<!-- Footer -->
+</div>
